@@ -1,0 +1,2 @@
+## Load Balancer with ExpressJS
+The key idea for load balancing is that Node's core HTTP IncomingMessage and ServerResponse classes, as well as the request package's representation of HTTP requests, implement Node's streams interface. Proxying an HTTP request is as easy as calling pipe() twice:
